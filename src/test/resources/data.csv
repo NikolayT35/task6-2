@@ -1,0 +1,15 @@
+'registered, under limit';100060;true;30
+'not registered, under limit';100060;false;10
+
+'registered, over limit'; 1666999; true; 500
+'not registered, over limit'; 5000000; false; 500
+
+'registered, boarder limit hight'; 1663999; true; 499
+'not registered, boarder limit hight'; 4999999; false; 499
+
+'registered, zero'; 0; true; 0
+'not registered, zero'; 0; false; 0
+
+'registered, registered below zero'; -1663999; true; -499
+'not registered, below zero'; -4999999; false; -499
+
